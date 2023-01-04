@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <link href="CSS.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="utf-8" name="author" content="Ilovemyhouse">
+    <meta name="viewport" content="width=device-width">
+    <title>Render time calculator</title>
+</head>
+<body>
+<h1>Render time calculator</h1>
+<h2>Welcome to the render time calculator!</h2>
+<h3>Simply fill out the fields below, and then click the "Calculate" button.</h3>
+
+<form>
+    <input id="amount" type="number" placeholder="Amount of frames" required>
+    <input id="time" type="number" placeholder="Time per frame (in minutes)" required>
+</form>
+<br>
+<button type="submit" onclick="calculate()">Calculate</button>
+<p id="output_render_time">The estimated render time will appear here.</p>
+</body>
+<script src="JS.js"></script>
+<noscript style="color: red;">This webp<age requires JavaScript to work!</noscript>
+<footer>Created by <a href="https://github.com/Ilovemyhous">Ilovemyhouse</a> | Version 0.0.4</footer>

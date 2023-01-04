@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+}
+
+h1, h2, h3, p, footer {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 5px;
+}
