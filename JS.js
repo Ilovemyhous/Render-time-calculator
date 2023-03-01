@@ -42,7 +42,7 @@ function calculate() {
     //Calculates the render time if everything's ok.
     //console.info(check);
     if (check !== 2) {
-        console.error("An error occured, please check the fields.");
+        console.error("An error occurred, please check the fields.");
     }
 
     else {
@@ -56,7 +56,7 @@ function calculate() {
             let minutes = render_time % 60;
             console.log(hours+ " hour(s) and "+minutes+" minutes.");
 
-            //This will be used for correct speeling
+            //This will be used for correct spelling
             if (hours !== 1 && minutes !== 0) {
                 document.getElementById("output_render_time").innerHTML = hours+ " hours and "+minutes+" minutes"
             }
